@@ -23,7 +23,7 @@ public class CotacaoDolarService {
     }
 
     public String getCurrentPrice(String coinKey) throws JsonProcessingException {
-        return fetchApiResponseCurrentCoinPrice(coinKey);
+        return fetchApiResponseCurrentPrice(coinKey);
     }
 
     public void saveCurrentPrice(Long jobId, String price, String quotation){
@@ -31,7 +31,7 @@ public class CotacaoDolarService {
         cotacaoDolarRepository.save(entity);
     }
 
-    private String fetchApiResponseCurrentCoinPrice(String coinKey) throws JsonProcessingException {
+    private String fetchApiResponseCurrentPrice(String coinKey) throws JsonProcessingException {
         ResponseEntity<String> response;
         switch (coinKey){
             case "USDBRL":
