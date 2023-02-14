@@ -1,6 +1,6 @@
 package com.ecommit.orquestrador.rest.service;
 
-import com.ecommit.orquestrador.rest.CotacaoDolarRequestHandler;
+import com.ecommit.orquestrador.rest.api.CotacaoDolarRequestHandler;
 import com.ecommit.orquestrador.rest.entity.CotacaoDolarEntity;
 import com.ecommit.orquestrador.rest.repository.CotacaoDolarRepository;
 import com.ecommit.orquestrador.rest.utils.JsonResponseUtils;

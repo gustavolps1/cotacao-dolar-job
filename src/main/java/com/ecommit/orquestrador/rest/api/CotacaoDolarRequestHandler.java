@@ -1,4 +1,4 @@
-package com.ecommit.orquestrador.rest;
+package com.ecommit.orquestrador.rest.api;
 
 import com.ecommit.orquestrador.rest.constants.URI;
 import org.springframework.http.ResponseEntity;
